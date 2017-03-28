@@ -1,12 +1,14 @@
 <section class="mainbar">
   <section class="matter">
     <div class="container-fluid">
-      
-        {{vm.racquetDetail}}
-        
+      Name:{{vm.racquetDetail.name}} Snippet:{{vm.racquetDetail.snippet}}
+      <img ng-repeat="img in vm.racquetDetail.imgs" src="http://localhost:3000/images/{{img}}">
 
 
-        
+
+
+
+
 
     </div>
   </section>

@@ -18,9 +18,9 @@ function getPeople() {
 
 function getRacquet() {
   return [
-    { id:'doura10', name: 'Doura 10', snippet: 'Destroy', img:'doura10_01.jpg'},
-    { id:'nanoray900', name: 'Nanoray 900', snippet: 'Destroy Better', img:'nanoray900_01.jpg'},
-    { id:'arcsaberZ-Slash', name: 'Arcsaber Z-Slash', snippet: 'God sword', img:'arcsaberZslash_01.jpg'}
+    { id:'doura10', name: 'Doura 10', snippet: 'Destroy', imgs:['doura10_01.jpg','doura10_02.jpg','doura10_03.jpg','doura10_04.jpg']},
+    { id:'nanoray900', name: 'Nanoray 900', snippet: 'Destroy Better', imgs:['nanoray900_01.jpg','nanoray900_02.jpg','nanoray900_03.jpg','nanoray900_04.jpg']},
+    { id:'arcsaberZ-Slash', name: 'Arcsaber Z-Slash', snippet: 'God sword', imgs:['arcsaberZslash_01.jpg','arcsaberZslash_02.jpg','arcsaberZslash_03.jpg','arcsaberZslash_04.jpg']}
     
   ];
 }
