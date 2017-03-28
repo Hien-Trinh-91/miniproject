@@ -196,3 +196,36 @@ body {
   padding-bottom: 0;
   padding-top: 0;
 }
+.badminton{
+  background-color: white;
+  // display: none;
+  float: left;
+  height: 400px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+  padding: 2em;
+  width: 400px;
+}
+.badminton-img{
+  background-color: white;
+  float: left;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 450px;
+}
+.badminton-img.ng-enter {
+  transition: 2s linear all;
+  opacity:0;
+}
+.badminton.ng-enter {
+  transition: 2s linear all;
+  opacity:0;
+}
+
+.badminton.ng-enter.ng-enter-active {
+  opacity:1;
+}
+.badminton-img.ng-enter.ng-enter-active {
+  opacity:1;
+}

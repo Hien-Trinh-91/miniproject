@@ -1,15 +1,15 @@
 <section class="mainbar">
   <section class="matter">
     <div class="container-fluid">
-      Name:{{vm.racquetDetail.name}} Snippet:{{vm.racquetDetail.snippet}}
-      <img ng-repeat="img in vm.racquetDetail.imgs" src="http://localhost:3000/images/{{img}}">
-
-
-
-
-
-
-
+      <div class="badminton-img">
+        <img class="badminton" src="http://localhost:3000/images/{{vm.imgChose}}">
+      </div>
+      <ul style="float:right; margin-top: 100px;">
+        <li>
+          <img style="height: 200px;" ng-repeat="img in vm.racquetDetail.imgs" src="http://localhost:3000/images/{{img}}" ng-click="vm.imgChose=img">
+          </li>
+      </ul>
     </div>
+
   </section>
 </section>
